@@ -1,15 +1,14 @@
-//complete this code
 class Animal {
 	constructor(species){
-		this.species =  species;
+		this.species = species;
 	}
 
 	getSpecies(){
 		return this.species;
 	}
-	
-		makeSound(){
-			 
+
+	makeSound(){
+		// Implement this in derived classes
 	}
 }
 
@@ -20,7 +19,7 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-	 purr(){
+	purr(){
 		console.log("purr");
 	}
 }
